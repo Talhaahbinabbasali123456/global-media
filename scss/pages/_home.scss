@@ -1,0 +1,21 @@
+//===========================================
+	// -Home Page start
+//===========================================
+.content-div, .absolute-divs {
+	text-align: center;
+	margin: 0 auto;
+}
+.ad-1, .ad-2, .ad-3 {
+	width: (100% / 3);
+	height: 256px;
+	border: 1px solid blue;
+	float: left;
+	padding: 15px;
+	margin: -120px auto;
+}
+.ad-container{
+	margin: 0 auto;
+}
+//===========================================
+	// -Home Page end
+//===========================================

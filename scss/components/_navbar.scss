@@ -1,0 +1,78 @@
+//===========================================
+// -Navbar start
+//===========================================
+.header-extras {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 0px;
+	margin-left: 15px;
+}
+.header-left {
+	float: left;
+}
+
+.header-nav {
+	display: inline-block;
+	vertical-align: top;
+	// padding: 0px;
+	text-align: center;
+	padding: 15px 41px 10px 29px;
+	margin: 0px 20px;
+}
+
+.hn-item {
+	display: inline-block;
+	// margin: 0px;
+	text-align: center;
+	font-size: rem(12);
+	font-weight: bold;
+	color: #acacaa;
+	margin: 1px 15px 0px 10px;
+	font-family: $font-default;
+}
+.hn-link {
+	color: #acacaa;
+	text-decoration: none;
+}
+
+.button {
+	font-family: $font-default;
+	margin: 0px 2px -1px 2px;
+	// width: 160px;
+	float: right;
+	padding: 16px 53px;
+	background-color: white;;
+	color: #282828;
+	border-radius: 85px;
+	font-size: rem(14);
+	font-weight: bold;
+}
+
+.lang {
+	margin: 17px 30px 0px 0px;
+	display: inline-block;
+	color: #fcfcfb;
+	font-size: rem(14);
+	text-align: center;
+}
+.EN  {
+	padding-top: 2px;
+	margin-right: 8px; 
+	display: inline-block;
+	float: left;
+}
+.dropdown-icon {
+	margin-top: 8px;
+	float: right;
+	font-weight: bold;
+}
+.main-logo {
+	height: 42px;
+	width: 232px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+//===========================================
+// -Navbar end
+//===========================================

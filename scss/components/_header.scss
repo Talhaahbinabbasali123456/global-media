@@ -1,0 +1,59 @@
+//===========================================
+	// -Header start
+//===========================================
+.slider-background {
+	height: 815px;
+	background-image: url("../images/header.jpg");
+}
+.slider-layout {
+	height: 815px;
+	width: 100%;
+	background-color:#282828b3;
+	// opacity: 0.7;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.main-header {
+	position: absolute;
+	width: 100%;
+	margin-top: 48px;
+}
+
+
+
+.global-heading {
+	width: 100%;
+	text-align: center;
+
+	h1 {
+		display: inline-block;
+		font-family: $font-default;
+		font-weight: bold;
+		font-size: 60px;
+		color: #ffffff;
+		width: 565px;
+		line-height: 60px;
+		text-align: center;
+		margin-top: 260px;
+	}
+	.gradient-btn {
+			padding: 18px 42px;
+			background-image: linear-gradient(to right, #de4527, #f4a132);
+			color: #282828;
+			letter-spacing: 0.1em;
+			border-radius: 85px;
+			font-size: rem(13);
+			font-family: $font-default;
+			display: inline-block;
+			color: $white;
+			margin-top: -10px; 
+	}
+	.gradient-btn-parent {
+		text-align: center;
+		padding: 0px;
+	}
+}
+//===========================================
+	// -Header end
+//===========================================
