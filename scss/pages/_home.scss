@@ -1,21 +1,229 @@
 //===========================================
-	// -Home Page start
+// -Home Page start
 //===========================================
-.content-div, .absolute-divs {
-	text-align: center;
+.banner-sec {
+	// text-align: center;
 	margin: 0 auto;
 }
-.ad-1, .ad-2, .ad-3 {
+
+.b-container{
+	margin: 0 -15px;
+	min-width: 80%;
+}
+.featured-cont {
 	width: (100% / 3);
-	height: 256px;
-	border: 1px solid blue;
 	float: left;
 	padding: 15px;
-	margin: -120px auto;
+	margin-top: -173px;
+
 }
-.ad-container{
+.fc1, .fc2, .fc3 {
+	width: 100%;
+	min-height: 257px;
+	background-color: $white;
+	cursor: pointer;
+	padding: 42px 40px 45px 40px;
+	-webkit-box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+	box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+	
+}
+.fc1:hover {
+	background-color: #f3a032;
+}
+.fc1:hover > .b-heading {
+	color:	$lighten;
+}
+.fc1:hover > .b-para {
+	color: $lighten;
+}
+.fc1:hover > .join-now-cont > .jn-btn {
+	background-color: $lighten;
+	color: #3f3f3f;
+}
+.fc1:hover > .join-now-cont > .read-more {
+	color: $lighten;
+}
+.fc2:hover {
+	background-color: #f3a032;
+}
+.fc2:hover > .b-heading {
+	color: $lighten;
+}
+.fc2:hover > .b-para {
+	color: $lighten;
+}
+.fc2:hover > .join-now-cont > .jn-btn {
+	background-color: $lighten;
+	color: #3f3f3f;
+}
+.fc2:hover > .join-now-cont > .read-more {
+	color: $lighten;
+}
+.fc3:hover {
+	background-color: #f3a032;
+}
+.fc3:hover > .b-heading {
+	color: $lighten;
+}
+.fc3:hover > .b-para {
+	color: $lighten;
+}
+.fc3:hover > .join-now-cont > .jn-btn {
+	background-color: $lighten;
+	color: #3f3f3f;
+}
+.fc3:hover > .join-now-cont > .read-more {
+	color: $lighten;
+}
+.b-para {
+	font-size: rem(14);
+	color: #7d7d7d;
+	text-align: left;
+	line-height: 25px;
+	margin: 10px 0px 17px 0px;
+}
+.b-heading {
+	color: #282828;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
 	margin: 0 auto;
 }
+.jn-btn {
+	font-family: $font-default;
+	float: left;
+	padding: 15px 27px;
+	background-color: #f3a032;
+	color: $lighten;
+	border-radius: 100px;
+	font-size: rem(14);
+	font-weight: bold;
+	margin: 2px auto;
+}
+.read-more {
+	font-size: rem(14);
+	color: #282828;
+	font-weight: bold;
+	font-size: rem(14);
+	float: left;
+	display: inline-block;
+	padding: 16px 80px 0px 18px;
+}
+.join-now-cont {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.why-we-container {
+	padding: 95px 0px 0px 0px;
+}
+
+.why-we-heading {
+	font-size: 48px;
+	font-weight: bold;
+	color: #282828;
+}
+.how-we-heading {
+	font-size: 48px;
+	font-weight: bold;
+	color: #282828;
+}
+.ww-para {
+	font-size: rem(18);
+	color: #767676;
+	margin: -10px 0px 0px 0px;
+}
+
+
+.points {
+	width: (100% / 4);
+	height: 40vh;
+	padding-right: 20px;
+	float: left;
+	margin-top: 65px;
+}
+.pt-icon  {
+	text-align: left;
+}
+.pt-para {
+	padding-top: 4px;
+	text-align: left;
+	font-size: rem(18);
+	color: #767676;
+	line-height: 33px;
+}
+
+
+.how-work-cont {
+	background-color: #f6f6f6;
+	// height: 600px;
+	padding: 95px 0px;
+}
+.hw-box-cont {
+	margin: 120px -15px 0px -15px;
+	padding: -15px;
+}
+.hw-box {
+	display: inline-block;
+	font-size: rem(36);
+	font-weight: bold;
+	color: #282828;
+	padding: 65px 0px;
+	width: 170px;
+	margin: 13px;
+	border: 1px solid #76767614;
+	-webkit-box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+	box-shadow: 3px 3px 201px -45px rgba(0,0,0,1);
+}
+.hw-box:hover {
+	background-color: #f3a032;
+	color: $white;
+}
+
+.am-img {
+	width: (100% / 2);
+	float: left;
+}
+.am-detail {
+	padding: 200px 0px;
+	width: (100% / 2);
+	float: left;
+}
+.am-heading {
+	text-align: left;
+	color: #282828;
+	font-size: rem(48);
+	font-weight: bold;
+	margin: 0px;
+}
+.am-para {
+	text-align: left;
+	font-size: 18px;
+	color: #767676;
+	padding: 0px 40px 0px 0px;
+	line-height: 36px;
+}
+.a-read-more {
+	text-align: left;
+	padding: 0px 0px 40px 0px;
+	a {
+		
+	font-weight: bold;
+	color: #f3a032;
+	}
+}
+.store-img-link {
+	text-align: left;
+}
+.img-play-store, .img-google-store {
+	width: 200px;
+	height: 66px;
+}
+.advertiser-main-cont {
+	padding: 110px 0px;
+}
 //===========================================
-	// -Home Page end
+// -Home Page end
 //===========================================
