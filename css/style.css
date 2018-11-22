@@ -454,13 +454,16 @@ html, body {
 
 .slider-background {
   height: 815px;
-  background-image: url("../images/header.jpg"); }
+  background-image: url("../images/header.jpg");
+  overflow: hidden;
+  border-radius: 0 0 100% 100% / 5%; }
 
 .slider-layout {
   height: 815px;
   width: 100%;
   background-color: #282828b3;
-  margin: 0px auto; }
+  margin: 0px auto;
+  background-image: linear-gradient(135deg); }
 
 .main-header {
   position: absolute;

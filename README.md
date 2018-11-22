@@ -1,7 +1,5 @@
 # README #
 
-https://talhaahbinabbasali123456.github.io/global-media/
-
 ### How do I get set up? ###
 
 * sass --watch scss/main.scss:css/style.css --style compressed --sourcemap=none
